@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, Lola!</title>
+    <meta
+      name="description"
+      content="A heartfelt birthday website for Lola with photo memories and video greetings."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <div class="brand">Lola</div>
+          <div class="nav-links">
+            <a href="#gallery">Gallery</a>
+            <a href="#greetings">Greetings</a>
+            <a href="#message">Message</a>
+          </div>
+        </nav>
+
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Happy Birthday</p>
+            <h1>Lola</h1>
+            <p class="subtitle">You are the heart of our family, the joy in our days, and the smile we all treasure.</p>
+            <div class="hero-buttons">
+              <a href="#gallery" class="btn btn-primary">See Memories</a>
+              <a href="#greetings" class="btn btn-secondary">Watch Greetings</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="card-photo">
+              <img
+                src="picture/lola1.jpg"
+                alt="Lola smiling"
+              />
+            </div>
+            <div class="card-badge">Forever loved</div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="greetings-section" id="greetings">
+          <div class="section-heading">
+            <p class="eyebrow">Birthday Greetings</p>
+            <h2>Video Messages</h2>
+          </div>
+
+          <div class="video-grid two-videos">
+            <article class="video-card">
+              <div class="video-wrap">
+                <video controls preload="metadata">
+                  <source src="video/vid1.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <h3>Greeting from ur apo</h3>
+            </article>
+
+            <article class="video-card">
+              <div class="video-wrap">
+                <video controls preload="metadata">
+                  <source src="video/vid2.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <h3>Greeting from ur apo</h3>
+            </article>
+          </div>
+        </section>
+
+        <section class="gallery-section" id="gallery">
+          <div class="section-heading">
+            <p class="eyebrow">Sweet Memories</p>
+            <h2>Moments We Cherish</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="photo-card tall">
+              <img
+                src="picture/lola2.jpg?auto=format&fit=crop&w=900&q=80"
+                alt="Family moment"
+              />
+            </figure>
+            <figure class="photo-card">
+              <img
+                src="picture/lola3.jpg?auto=format&fit=crop&w=900&q=80"
+                alt="Beautiful smile"
+              />
+            </figure>
+            <figure class="photo-card">
+              <img
+                src="picture/lola4.jpg?auto=format&fit=crop&w=900&q=80"
+                alt="Warm family portrait"
+              />
+            </figure>
+            <figure class="photo-card wide">
+              <img
+                src="picture/lola5.jpg?auto=format&fit=crop&w=1200&q=80"
+                alt="Celebration with family"
+              />
+            </figure>
+            <figure class="photo-card">
+              <img
+                src="picture/lola6.jpg?auto=format&fit=crop&w=900&q=80"
+                alt="Portrait"
+              />
+            </figure>
+            <figure class="photo-card">
+              <img
+                src="picture/lola7.jpg?auto=format&fit=crop&w=900&q=80"
+                alt="Happy celebration"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <section class="message-section" id="message">
+          <div class="message-card">
+            <p class="eyebrow">A Little Note</p>
+            <h2>For the Most Beautiful Lola</h2>
+            <p>
+              Happy birthday, Lola! Today is a celebration of the love, kindness, and warmth you bring into every life you touch.
+              You are a blessing to our family, a treasure to our hearts, and a light that makes every day brighter.
+              May this new year be filled with joy, laughter, peace, and countless beautiful memories.
+            </p>
+            <p>
+              We love you so much and are so grateful for every moment with you. May your dreams continue to bloom,
+              your smiles grow brighter, and your heart always feel cherished.
+            </p>
+            <div class="signature">With all our love,</div>
+          </div>
+        </section>
+      </main>
+
+     
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
